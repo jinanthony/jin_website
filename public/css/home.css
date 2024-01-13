@@ -157,3 +157,20 @@
     cursor: pointer;
     z-index: 8;
 }
+
+.pre-btn{
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn{
+    right: 0;
+}
+
+.pre-btn img, .nxt-btn img{
+    opacity: 0.2;
+}
+
+.pre-btn:hover img, .pre-btn:hover img{
+    opacity: 1;
+}
