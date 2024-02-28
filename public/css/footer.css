@@ -23,7 +23,8 @@ footer{
 }
 
 .category{
-    width: 200px;
+    /* width: 200px; */
+    justify-content: right;
     /*display: grid;*/
     /*grid-template-columns: repeat(2, 1fr);*/
     /*grid-gap: 10px;*/
@@ -59,4 +60,20 @@ footer{
 .footer-title{
     margin-top: 80px;
     color: #fff;
+}
+
+.footer-social-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.social-link:nth-child(1){
+    margin-left: 0;
 }
